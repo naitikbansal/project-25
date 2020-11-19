@@ -7,7 +7,7 @@ class Bin {
     this.width = width;
     this.height = height;
     World.add(world, this.body);
-    this.image=loadImage('sprites/dustbingreen.png');
+    this.image=loadImage('dustbingreen.png');
    
   }
    display(){
